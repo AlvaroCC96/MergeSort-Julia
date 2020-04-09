@@ -7,11 +7,22 @@ Secuencial Algorithm and Parallel Algorithm of Mergesort for the HPC course at t
 
 ## Getting Started
 
-### Executing program
+### Executing MergeSort-Secuencial
 
 ```
-julia nameOfFile.jl
+julia mergesort.jl
 ```
+
+### Executing MergeSort-Parallel
+
+```
+sh run2.sh
+```
+This script was provided by Patricio Araya: 
+- https://github.com/patoarayas/julia-mergesort
+
+##SpeedRun
+![alt text](https://github.com/AlvaroCC96/MergeSort-Julia/blob/master/SpeedRun.png "SpeedRun")
 
 ## Authors
 
