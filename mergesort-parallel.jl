@@ -51,10 +51,9 @@ function mergesort_parallel!(array, start::Int=1, finish::Int=length(array))
     return array
 end
 
-
-totalNumbers = 1000;
+totalNumbers = 100000;
 list = [rem(rand(Int64),100) for i =1:totalNumbers]
 #JULIA_NUM_THREADS = 5
-@time print(mergesort_parallel!(list));
-#@time mergesort_parallel!(list);
+#@time print(mergesort_parallel!(list));
+@time mergesort_parallel!(list);
 #@time @spawn psort!(vectorDisorderly);

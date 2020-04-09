@@ -38,8 +38,8 @@ function merge(array, start, half, finish)
     end
 end
 #can change this total numbers for process of sort
-totalNumbers = 1000;
-list = [rem(rand(Int32),10) for i =1:totalNumbers]
+totalNumbers = 10000000;
+list = [rem(rand(Int128),100000) for i =1:totalNumbers]
 
 print("Sorted List in :")
 #get time to solve whit secuencial algorithm
